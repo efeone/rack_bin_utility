@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rack_bin_utility *.css
+recursive-include rack_bin_utility *.csv
+recursive-include rack_bin_utility *.html
+recursive-include rack_bin_utility *.ico
+recursive-include rack_bin_utility *.js
+recursive-include rack_bin_utility *.json
+recursive-include rack_bin_utility *.md
+recursive-include rack_bin_utility *.png
+recursive-include rack_bin_utility *.py
+recursive-include rack_bin_utility *.svg
+recursive-include rack_bin_utility *.txt
+recursive-exclude rack_bin_utility *.pyc
